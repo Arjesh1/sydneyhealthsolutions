@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* css for nav starts */
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+img {
+    width: 150px;
+  }
+  
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a.active{
+    color: #9A64E0
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    color: rgb(6, 6, 6);
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+nav ul li a:hover{
+    color: #9A64E0;
+}
+
+.cta{
+    background-color: #9A64E0;
+    border-color: black;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.cta:hover{
+    background-color: #000000;
+    color: #9A64E0;
+}
+
+h2{
+    text-align: center;
+}
+
+/* css for nav stops*/
+
+
+.wehelp{
+    height: 600px;
+    width: 100%;
+}
+
+.afterwehelp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9A64E0;
+    
+}
+
+
+.afterwehelp li{ 
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+
+.afterwehelp li a:hover{
+    color: #ffffff;
+}
+
+.help{
+    padding-left: 250em;
+    
+}
+
+aside {
+    padding: 10px;
+}
+
+.box{
+    position: absolute;
+}
+.box .right p{
+    width: 40%;
+    padding-top: 20px;
+    
+   
+    margin-left: 150px;
+    margin-right: 150px;
+
+    font-style: italic;
+    color: #29627e;
+    position: relative;
+}
+
+
+
+
+.afteriwanto h1{
+    margin-top: 200px;   
+    text-align: center;
+}
+
+.map{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.searchtext{
+    font-family: 'Quicksand', sans-serif;
+    color: #29627e;
+    text-align: center;
+    text-size-adjust: 10em;
+}
+
+.button {
+    background-color:  #9A64E0;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+  

@@ -1,0 +1,3 @@
+<section>
+        <img class="left" src="siteimages/iwantto.jpg" alt="left">
+      </section>
